@@ -25,7 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: 
+  background-image:
     radial-gradient(circle at 15% 50%, rgba(99, 102, 241, 0.15), transparent 25%),
     radial-gradient(circle at 85% 30%, rgba(16, 185, 129, 0.1), transparent 25%);
   background-attachment: fixed;
@@ -94,7 +94,8 @@ body {
   background: rgba(255, 255, 255, 0.02);
 }
 
-.upload-area:hover, .upload-area.active {
+.upload-area:hover,
+.upload-area.active {
   border-color: var(--primary);
   background: rgba(99, 102, 241, 0.05);
 }
@@ -245,17 +246,26 @@ body {
   display: inline-block;
   width: 24px;
   height: 24px;
-  border: 3px solid rgba(255,255,255,0.3);
+  border: 3px solid rgba(255, 255, 255, 0.3);
   border-radius: 50%;
   border-top-color: white;
   animation: spin 1s ease-in-out infinite;
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes slideUp {
-  from { opacity: 0; transform: translateY(30px) scale(0.95); }
-  to { opacity: 1; transform: translateY(0) scale(1); }
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }

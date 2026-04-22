@@ -46,8 +46,8 @@ function App() {
     <div className="app-container">
       <div className="glass-card">
         <div className="header">
-          <h2>SkinCare AI</h2>
-          <p>Medical-grade skin lesion analysis powered by Deep Learning</p>
+          <h2>Cancer Detection</h2>
+
         </div>
 
         {!preview ? (
